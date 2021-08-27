@@ -1,0 +1,14 @@
+body {
+    background-color: red;
+    color: black;
+    min-width: 450px;
+    max-width: 1000px;
+    min-height: 100px;
+    max-height: 1000px;
+    position: relative;
+
+}
+
+#header{
+    text-align: center;
+}

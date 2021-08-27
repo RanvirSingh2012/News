@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "News Headline",
+    "version": "1.0",
+    "description": "Scans the entire news page and gives the headline. ",
+    "icons": {
+        "128": "logo.png",
+        "48": "logo.png",
+        "16": "logo.png"
+    },
+    "browser_action":{
+        "default_icon":"logo.png",
+        "default_popup": "popup.html"
+    },
+     
+
+    "permissions" : [
+        "storage", 
+        "notifications",
+        "https://en.wikipedia.org/"
+
+    ]
+
+}
